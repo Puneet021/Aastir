@@ -17,19 +17,14 @@
 		<link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css" />
 		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-custom.min.css" />
 		<link rel="stylesheet" href="lib/linecons/style.css" />
-		<link rel="stylesheet" href="styles/style-1.min.css" />
-		<link rel="stylesheet" href="styles/team-1.css" />
+		<link rel="stylesheet" href="styles/style.min.css" />
+		<link rel="stylesheet" href="styles/team.css" />
 		<link rel="stylesheet" href="theme-custom.css" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
-		<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+
+
 	</head>
+
 	<body class="state1 background-100-e">
 
 		<div class="page-border bottom colors-e background-solid"><a href="#top" class="hover-effect">To <span class="highlight">Top</span></a></div>
@@ -49,8 +44,8 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home" class="hover-effect">Home</a></li>
 						<li><a href="#about" class="hover-effect">About</a></li>
-						<li><a href="#team" class="hover-effect">Team</a></li>
 						<li><a href="#services" class="hover-effect">Services</a></li>
+						<li><a href="#team" class="hover-effect">Team</a></li>
 						<li><a href="#skills" class="hover-effect">Training</a></li>
 						<li><a href="#contact" class="hover-effect">Contact</a></li>
 
@@ -63,20 +58,22 @@
 
 
 		<!-- BEGIN: Page content -->
-		<div class="video" ><video id="setspeed"class="video" autoplay muted playbackRate="2" >
+		<div  class="video" ><video id="video" class="video" autoplay  loop muted >
   <source src="bg-video.mp4" type="video/mp4">
 </video></div>
 		<section id="home">
 			<div class="view">
 				<div class="content home-suzi full-size colors-c background-40">
 					<div class="container">
-						<h2><span class="thin-font-weight">We <span class="highlight">Are</span></span></h2>
-						<h1 class="text-center">AASTIR<span class="highlight thin-font-weight"></span></h1>
+						<h2><span class="thick-font-weight">We <span class="highlight">Are</span></span></h2>
+						<h1 class="text-center Title">AASTIR<span class="highlight thin-font-weight"></span></h1>
 						<div class="row">
 							<div class="col-md-4 col-md-offset-4">
-								<p class="title text-center">
+								<h4 style="color: #9932CC;font-size: 20px">We provide<span style="color: white" class="txt-rotate text-center" data-period="2000"
+									 data-rotate='[ " Web solutions!.", "" ]'></span></h4>
+								<!-- <p class="title text-center">
 									We provide Web solutions for your business!
-								</p>
+								</p> -->
 							</div>
 						</div>
 						<p class="text-center"><a href="#about" class="button background-60-d heading-d border-hard">Get Started</a><a href="#work" class="button background-60-f heading-f border-hard">Our Services</a></p>
@@ -84,16 +81,31 @@
 				</div>
 			</div>
 		</section>
+		<script>
+var vid = document.getElementById("video");
+
+vid.playbackRate = 0.4;
+
+</script>
 		<section id="about">
 
 			<div class="view">
 				<div class="content colors-e background-solid">
 					<div class="container">
-						<h2>About Us</h2>
+						<h2>About<span class="highlight"> Us</span></h2>
 						<p class="header-details"><span class="highlight">We Provide</span> Web Solutions</p>
 						<p class="lead"><span class="highlight">AASTIR </span>The most impressive websites and app experiences are rooted in smart design, embody clear vision, and are backed by the right technology. We rely on the right tools for the job, not a one-size-fits-all tech stack. Your satification our hobby.</p>
 						<div class="row">
-							<div class="col-md-4">
+							<div class="col-md-6">
+								<div class="col-icon">
+									<i class="li_t-shirt"></i>
+								</div>
+								<div class="col-content">
+									<h4>Approach <span class="highlight">To Quality</span></h4>
+									<p>AASTIR approach to quality can be condensed down to one phrase: "Ensuring our customer success". The information contained in this section will help you to gain a better understanding of AASTIR Business Management System, which allows us to accomplish that success. AASTIR Business Management System is made up of two parts; the Quality Management System and the Environmental Management System.</p>
+								</div>
+							</div>
+							<div class="col-md-6">
 								<div class="col-icon">
 									<i class="li_bulb"></i>
 								</div>
@@ -102,16 +114,19 @@
 									<p>AASTIR The most impressive websites and app experiences are rooted in smart design, embody clear vision, and are backed by the right technology. We rely on the right tools for the job, not a one-size-fits-all tech stack. Your satification our hobby.</p>
 								</div>
 							</div>
-							<div class="col-md-4">
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-6">
 								<div class="col-icon">
-									<i class="li_t-shirt"></i>
+									<i class="li_megaphone"></i>
 								</div>
 								<div class="col-content">
-									<h4>Internet <span class="highlight">Marketing</span></h4>
-									<p>Curabitur et diam elementum, mollis tortor a, malesuada turpis. Vivamus gravida, justo et molestie sollicitudin, erat lorem tempus eros, vel laoreet nibh urna ac nunc, vestibulum neque vitae pellentesque efficitur.</p>
+									<h4>Client <span class="highlight">Support</span></h4>
+									<p>Sed porta erat vel ipsum maximus, eget maximus est maximus. Maecenas at venenatis nibh, sit amet suscipit odio. In feugiat vehicula dui. In felis enim, maximus a dolor semper efficitur elit euismod magna quis commodo.</p>
 								</div>
 							</div>
-							<div class="col-md-4">
+							<div class="col-md-6">
 								<div class="col-icon">
 									<i class="li_megaphone"></i>
 								</div>
@@ -124,10 +139,13 @@
 					</div>
 				</div>
 			</div>
+		</section>
+		<section id="services">
+
 			<div class="view" id="how-we-work">
 				<div class="content colors-h">
 					<div class="container">
-						<h3><span class="highlight">How</span> We Work</h3>
+						<h3><span class="highlight">Our</span> Services</h3>
 						<div class="row">
 							<div class="col-md-6 col-md-offset-3">
 								<p class="text-center">Aliquam fermentum massa ac est sollicitudin, at ultricies ligula tristique. Cras finibus, nulla ac convallis feugiat, nisl nisl lobortis est, eget auctor velit magna vel nunc. Donec nec eros rhoncus.</p>
@@ -165,11 +183,12 @@
 						</div>
 					</div>
 				</div>
-			</div>
+
 		</section>
-		<section id="teamaastir">
+		<section id="team">
+			<div id="teamaastir">
 			<div class="maginboo">
-				<h2>Team</h2>
+				<h2>Our<span style="color: white"> Team</span></h2>
 			<div class="containeraastir">
 				<div class="card">
 					<div class="content">
@@ -216,6 +235,7 @@
 					</ul>
 				</div>
 			</div>
+		</div>
 		</div>
 		</section>
 
@@ -378,6 +398,7 @@
 		<script src="bower_components/textillate/assets/jquery.lettering.js"></script>
 		<script src="bower_components/textillate/assets/jquery.fittext.js"></script>
 		<script src="bower_components/textillate/jquery.textillate.js"></script>
+		<script src="scripts/text-animate.js"></script>
 		<script src="lib/prism/prism.js"></script>
 		<script>
 		(function()
@@ -425,5 +446,4 @@
 		</script>
 	</body>
 
-<!-- Mirrored from skrollex.x40.ru/theme-suzi/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 16:22:00 GMT -->
 </html>

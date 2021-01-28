@@ -73,7 +73,7 @@
                 o = m.data("state2-colors"),
                 p = d("body"),
                 q = d(".view");
-            this.prepare = function(a) { if ("file:" !== window.location.protocol || d("body").hasClass("example-page") || d('<div class="file-protocol-alert alert colors-d background-80 heading fade in">	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button> Upload files to web server and open template from web server. If template is opened from local file system, some links, functions and examples may work incorrectly.</div>').appendTo(""), e.force3D === !0 && d("html").addClass("force3d"), i) { var b = d("body>.bg");
+            this.prepare = function(a) { if ("file:" !== window.location.protocol || d("body").hasClass("example-page") || d('').appendTo("body"), e.force3D === !0 && d("html").addClass("force3d"), i) { var b = d("body>.bg");
                     b.each(function(a) { a === b.length - 1 ? d(this).css("display", "block") : d(this).remove() }), d(".view").each(function() { var a = d(this).children(".bg");
                         a.each(function(b) { b === a.length - 1 ? d(this).css("display", "block") : d(this).remove() }) }) } if (j) { var f = d("body>img.bg"),
                         g = f.length > 0 ? f : d(".view>img.bg"); if (g.length > 0) { var h = d(g[0]);

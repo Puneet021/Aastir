@@ -1,9 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,500,600,300,200,100,800,900);
-/* @import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
 /* @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap');
 
 body,
 html {
@@ -166,7 +164,7 @@ iframe {
 body,
 html {
     /* font-family: Raleway, Arial, Helvetica, sans-serif; */
-    /* font-family: 'Averia Libre', cursive; */
+    /* font-family: 'Potta One', cursive; */
     font-family: 'Montserrat', sans-serif;
     font-weight: 400
 }
@@ -178,7 +176,7 @@ h4,
 h5,
 h6 {
     /* font-family: Raleway, Arial, Helvetica, sans-serif */
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Potta One', cursive;
 }
 
 h1 {
@@ -289,7 +287,7 @@ textarea {
 .heading-font,
 .normal-font {
     /* font-family: Raleway, Arial, Helvetica, sans-serif */
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Potta One', cursive;
 }
 
 .small-font {
