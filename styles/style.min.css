@@ -3792,7 +3792,7 @@ ul.simple li:before {
 .view {
     overflow: hidden;
     width: 100%;
-    position: relative
+    position: relative;
 }
 
 .view>.content {
@@ -4546,6 +4546,14 @@ p {
         line-height: 60px
     }
 }
+@media (max-width:991px) {
+
+    .home-lucy h1,
+    .home-lynda h1 {
+        font-size: 60px;
+        line-height: 60px
+    }
+}
 
 @media (max-width:767px) {
 
@@ -4560,7 +4568,7 @@ p {
 .home-mary .full-size,
 .home-suzi .full-size {
     padding-top: 80px;
-    padding-bottom: 75px
+    /*padding-bottom: 75px*/
 }
 
 @media (max-width:991px) {
