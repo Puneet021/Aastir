@@ -7150,7 +7150,7 @@ textarea {
 .overlay-window .content-container::-webkit-scrollbar-track,
 textarea::-webkit-scrollbar-track {
     background-color: #141414;
-    border-left: 1px solid rgba(223, 223, 223, .6)
+    border-left: 0px solid rgba(223, 223, 223, .6)
 }
 
 .ext-nav::-webkit-scrollbar-thumb,
@@ -7177,7 +7177,7 @@ textarea::-webkit-scrollbar {
 .non-mobile #top-nav::-webkit-scrollbar-thumb,
 .overlay-window .content-container::-webkit-scrollbar-thumb,
 textarea::-webkit-scrollbar-thumb {
-    border: 1px solid
+    border: 0px solid
 }
 
 .example-page,
